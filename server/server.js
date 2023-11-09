@@ -2,7 +2,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-    res.status(200).send('Welcome Parvinder singh on tech management project');
+    res.status(200).send('Welcome Parvinder singh on tech management project this is first mern stak project for you');
 })
 
 app.get('/register', (req, res) => {
