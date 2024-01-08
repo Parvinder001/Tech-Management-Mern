@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(14, 13, 13);
+  color: white;
+}
+.container {
+  max-width: 140rem;
+  padding: 3.2rem 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  gap: 3.2rem;
+  margin-right: 50px;
+}
+ul li {
+  list-style: none;
+  font-size: 16px;
+}
+ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.logo-brand a {
+  text-decoration: none;
+  font-size: 26px;
+  color: blue;
+}
