@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  background-color: black !important;
+  color: white !important;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.register-main {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+  margin-bottom: 3%;
+}
+.register-from-heading {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.register-form {
+  margin-top: 1%;
+}
+.form-input {
+  display: flex;
+  justify-content: center;
+  gap: 3.4rem;
+  margin-top: 5%;
+}
+
+.form-input {
+  font-size: 16px;
+  width: 500px;
+}
+.form-lable {
+  width: 100px;
+}
+.form-input input {
+  width: 350px;
+  padding: 1.5%;
+  margin: 0px;
+}
+.Submitbtn {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  margin-top: 5% !important;
+  cursor: pointer;
+}
+
+.login-image img {
+  width: 650px;
+}
+.homePageMain {
+  display: flex;
+  justify-content: center;
+}
+.hero-content {
+  width: 50%;
+  text-align: left;
+  margin-top: 4%;
+}
+.hero-content p {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  line-height: 30px;
+  width: 70%;
+}
+
+.homePageButtons a {
+  padding: 2rem 1rem 2rem 0rem;
+}
+.homePageButtons a button:hover {
+  box-shadow: inset;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.homePageButtons a button {
+  padding: 0.5rem 1.5rem;
+  background-color: #007bff;
+  color: wheat;
+  border: navajowhite;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.section-analytics {
+  margin: 5% 5%;
+  height: 30px;
+}
+.section-analytics > .gird-four-cols {
+  color: black;
+  background: white;
+  padding: 2% !important;
+  text-align: center;
+  border-radius: 10px;
+}
+.countDiv {
+  padding-right: 4%;
+  border-right: 1px solid black;
+  text-align: center;
+}
+.section-second {
+  margin-top: 12%;
+}
+
+.section-second > .homePageMain > .hero-content {
+  padding-left: 10%;
+}
+.section-second > .homePageMain > .hero-content > p {
+  width: 100%;
+}
+
+.contactUs-main {
+  display: flex;
+  justify-content: center;
+  gap: 3.4rem;
+}
+
+.form-username {
+  margin-top: 5%;
+  display: flex;
+  gap: 2rem;
+  > label {
+    width: 100px;
+  }
+  > input {
+    padding: 2%;
+    width: 300px;
+  }
+}
+.form-email {
+  margin-top: 5%;
+  display: flex;
+  gap: 2rem;
+  > label {
+    width: 100px;
+  }
+  > input {
+    padding: 2%;
+    width: 300px;
+  }
+}
+.form-message {
+  margin-top: 5%;
+  display: flex;
+  gap: 2rem;
+  > label {
+    width: 100px;
+  }
+  > textarea {
+    padding: 2%;
+    width: 300px;
+  }
+}
+.form-submit-btn {
+  margin-top: 5%;
+  display: flex;
+  gap: 2rem;
+  > label {
+    width: 100px;
+  }
+  > input {
+    background-color: #007bff;
+    color: white;
+    padding: 2%;
+    width: 120px;
+    border: none;
+    border-radius: 3px;
+  }
+  > input:hover {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
+
+.MapConatcus {
+  margin-top: 5%;
+}
+
+/* Page Not Found */
+.pageNotFoundMain {
+  text-align: center;
+  > .header {
+    font-size: 200px;
+    font-weight: 600;
+    color: #e085bf;
+  }
+  > h4 {
+    color: white;
+  }
+}
+
+.about-username {
+  display: flex;
+  gap: 1rem;
+}
+
+/* About page */
+
+/* services page */
+.service-card-main{
+ text-align: center;
+ .card-main{
+  margin-top: 6%;
+  text-align: center;
+ }
+
+ .description{
+  font-size: 12px;
+ }
+}
+.main-heading{
+  text-align: center;
+  text-decoration: underline;
+
+}
